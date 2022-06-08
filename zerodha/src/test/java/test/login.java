@@ -49,7 +49,7 @@ public class login {
 		driver.switchTo().window(list.get(1));
 		signuppage sign=new signuppage(driver);
 		String actualTitle =sign.getpagetitle(driver);
-		String expectedtitle="Signup and open a Zerodha trading and demat account online and start investing – Zerodha";
+		String expectedtitle="Signup and open a Zerodha trading and demat account online and start investing ï¿½ Zerodha";
 //		if (actualTitle.equals(expectedtitle)) {
 //			System.out.println("correct");
 //		}
@@ -63,7 +63,7 @@ public class login {
 //		Assert.assertFalse(sign.zerodhalogo()); 
 //		sign.entermobilenumber("1234567890");
 		
-		
+		//adding to git
 		SoftAssert softAssert=new SoftAssert();
 Assert.assertEquals(actualTitle, expectedtitle); //hard assert will stop execution at this point
 		
